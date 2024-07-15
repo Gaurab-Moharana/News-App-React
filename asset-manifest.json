@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/News-App-React/static/css/main.26c9bd2f.css",
+    "main.js": "/News-App-React/static/js/main.8b03fb7d.js",
+    "static/media/sidebar-banner-new.jpg": "/News-App-React/static/media/sidebar-banner-new.5145f8dcab875e0e273c.jpg",
+    "static/media/headerb.png": "/News-App-React/static/media/headerb.e4320dfd4d0afa3d0db0.png",
+    "static/media/logo.png": "/News-App-React/static/media/logo.b4762a0c389d6061c74c.png",
+    "static/media/slick.svg": "/News-App-React/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/News-App-React/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/News-App-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/News-App-React/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/News-App-React/index.html",
+    "main.26c9bd2f.css.map": "/News-App-React/static/css/main.26c9bd2f.css.map",
+    "main.8b03fb7d.js.map": "/News-App-React/static/js/main.8b03fb7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26c9bd2f.css",
+    "static/js/main.8b03fb7d.js"
+  ]
+}
