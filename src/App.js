@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Header from "./components/Header";
+import { Route, Routes } from "react-router-dom";
+import Homepages from "./components/Homepages";
+import Footer from "./components/Footer";
+import Popular from "./components/Popular";
+import Ppost from "./components/Ppost";
+import Life from "./components/Life";
+import Music from "./components/Music";
+import Discover from "./components/Discover";
+import Side from "./components/Side";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Homepages />} />
+        <Route path="/popular" element={<Popular />} />
+        <Route path="/trending" element={<Ppost />} />
+        <Route path="/lifestyle" element={<Life />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/discover" element={<Discover />} />
+        <Route path="/more" element={<Side />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
